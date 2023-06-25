@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Shopping bag</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Корзина</h1>
+        <div class="bag">
+            <div class="bag__products">
+                <div class="bag__title">
+                    <p>Товар</p>
+                    <p>Количество</p>
+                    <p>Цена</p>
+                </div>
+                <div class="bag__items">
+                    <div class="bag__item1">
+                        <img src="./assets/item1.jpg" alt="jhonny">
+                        <p>ДЖОННИ СИЛЬВЕРХЭНД (КИАНУ РИВЗ, "CYBERPUNK 2077") - КОЛЛЕКЦИОННАЯ ФИГУРКА 1/6 SCALE JOHNNY
+                            SILVERHAND (VGM47) - HOT TOYS</p>
+                        <p>1</p>
+                        <p id="bag__price-item1">32 800 ₽</p>
+                    </div>
+                    <div class="bag__item2">
+                        <img src="./assets/item2.jpg" alt="the witcher">
+                        <p>ГЕРАЛЬТ ИЗ РИВИИ (ВЕДЬМАК, THE WITCHER) - КОЛЛЕКЦИОННАЯ ФИГУРКА 1/6 SCALE THE WHITE WOLF -
+                            ARMORED VERSION (MTTOYS006) - MASTER TEAM</p>
+                        <p>1</p>
+                        <p id="bag__price-item2">22 800 ₽</p>
+                    </div>
+                    <div class="bag__item3">
+                        <img src="./assets/item3.jpg" alt="ciri">
+                        <p>ЦИРИ (ЦИРИЛЛА, THE WITCHER III) - КОЛЛЕКЦИОННАЯ ФИГУРКА 1/6 LADY OF SPACE AND TIME CIRI
+                            (K-001) - JKTOYS</p>
+                        <p>1</p>
+                        <p id="bag__price-item3">18 700 ₽</p>
+                    </div>
+                    <div class="bag__item4">
+                        <img src="./assets/item4.jpg" alt="lara">
+                        <p>ЛАРА КРОФТ (TOMB RAIDER) - КОЛЛЕКЦИОННАЯ ФИГУРКА 1/6 SCALE SNOW EDITION LARA (MT010) - MTTOYS
+                        </p>
+                        <p>1</p>
+                        <p id="bag__price-item4">26 800 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bag__count">
+                <div class="bag__coupon">
+                    <p>Использовать купон на 20%</p>
+                    <button id="couponButton">Применить</button>
+                </div>
+                <div class="bag__total">
+                    <p>Общая сумма</p>
+                    <p class="bag__price" id="total"></p>
+                    <p>Скидка</p>
+                    <p class="bag__price" id="discount">0 ₽</p>
+                    <p>Итого</p>
+                    <p class="bag__price" id="totalPrice"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/shopping-bag.js"></script>
+</body>
+
+</html>
